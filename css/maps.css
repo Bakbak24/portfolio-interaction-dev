@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E43D11;
+    font-family: Arial, sans-serif;
+    height: 97vh;
+    color: #ECE9E2;
+}
+
+#map {
+    height: 35vw;
+    width: 50%;
+    border-radius: 16px;
+    border: 5px solid #ECE9E2;
+}

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #E43D11;
+    color: #ECE9E2;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 5px solid #ECE9E2;
+    border-radius: 16px;
+}
+
+#texts {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 98%;
+}
+
+#countdown {
+    width: 50%;
+    text-align: right;
+}
+
+#shakes {
+    width: 50%;
+    text-align: left;
+}

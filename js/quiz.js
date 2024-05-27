@@ -11,7 +11,9 @@ let checker = document.querySelector("#checker");
 let questions = [
     {question: "Wat is beter, design of development", answer: "Development", imageSrc: "https://www.fovtysolutions.com/wp-content/uploads/2022/09/1_NhiqpOHe8jptZ4M95GkEMA.png"},
     {question: "Wat is de hoofdstad van Frankrijk", answer: "Parijs", imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYUEMtNrTM3oSUWFxYuU3qyQAztW24cZ30UJYYU2jymQ&s"},
-    {question: "Wat is de hoofdstad van Duitsland", answer: "Berlijn", imageSrc: "https://s7g10.scene7.com/is/image/stena/20150820_berlin-brandenburg-gate:16-9?ts=1688733511559&dpr=off"}
+    {question: "Wat is de hoofdstad van Duitsland", answer: "Berlijn", imageSrc: "https://s7g10.scene7.com/is/image/stena/20150820_berlin-brandenburg-gate:16-9?ts=1688733511559&dpr=off"},
+    {question: "Wat voor vogel is dit", answer: "Zwaan", imageSrc: "https://www.foto4art.be/img/res/category/zwaan_5645.jpg"},
+    {question: "Wat is de hoofdstad van Nederland", answer: "Amsterdam", imageSrc: "https://cms.finnair.com/resource/blob/691438/51db80b31ed1cdf10a5520699a8e673c/amsterdam-main-data.jpg?impolicy=crop&width=4000&height=1714&x=0&y=201"},
 ];
 let currentQuestionIndex = -1; 
 
